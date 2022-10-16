@@ -8,3 +8,4 @@
 |||[What is CocoaPods?](Mastering%20RxSwift%20in%20iOS/Section1.%20Introduce/What%20is%20CocoaPods?.md)|
 |||[Hello RxSwift (Install CocoaPods & apply to project)](Mastering%20RxSwift%20in%20iOS/Section1.%20Introduce/Hello%20RxSwift.md)|
 |02|Observables|[What is an Observables?](Mastering%20RxSwift%20in%20iOS/Section2.%20Observable/What%20is%20an%20Observable?.md)|
+|||[Implementing Observables (Observable 구현하기)](Mastering%20RxSwift%20in%20iOS/Section2.%20Observable/Implementing%20Observables.md)|
