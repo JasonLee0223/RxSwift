@@ -16,3 +16,4 @@
 |||[Behavior Subjects](Mastering%20RxSwift%20in%20iOS/Section3.%20Subjects/Behavior%20Subjects.md)|`BehaviorSubject` <br /> `BehaviorSubject와 PublishSubject의 차이점`|
 |||[Replay Subjects](Mastering%20RxSwift%20in%20iOS/Section3.%20Subjects/Replay%20Subjects.md)|`ReplaySubject`|
 |||[Variables](Mastering%20RxSwift%20in%20iOS/Section3.%20Subjects/Variables.md)|`Variables` <br /> `Variable(x) -> BehaviorRelay로 대체`|
+|||[BehaviorRelay](Mastering%20RxSwift%20in%20iOS/Section3.%20Subjects/BehaviorRelay.md)|`BehaviorRelay`|
