@@ -21,3 +21,12 @@
 |||[Requesting Permission to Accesss Photo Library](Mastering%20RxSwift%20in%20iOS/Section4.%20Implementing%20Photo%20Filter%20App%20Using%20RxSwift/Requesting%20Permission%20to%20Access%20Photo%20Library.md)|`Photos Framework` <br /> `Add PrivateKey at Info.plist`
 |||[Fetching All Photo Assets](Mastering%20RxSwift%20in%20iOS/Section4.%20Implementing%20Photo%20Filter%20App%20Using%20RxSwift/Fetching%20All%20Photo%20Assets.md)|`enumerateObject`
 |||[Displaying Photos from Photo Library](Mastering%20RxSwift%20in%20iOS/Section4.%20Implementing%20Photo%20Filter%20App%20Using%20RxSwift/Displaying%20Photos%20from%20Photo%20Library.md)|
+|05|Filtering Operator|[Ignore](Mastering%20RxSwift%20in%20iOS/Section5.%20Filtering%20Operator/Ignore.md)|
+|||[Element At](Mastering%20RxSwift%20in%20iOS/Section5.%20Filtering%20Operator/Element%20At.md)|
+|||[Filter](Mastering%20RxSwift%20in%20iOS/Section5.%20Filtering%20Operator/Filter.md)|
+|||[Skip](Mastering%20RxSwift%20in%20iOS/Section5.%20Filtering%20Operator/Skip.md)|
+|||[Skip While](Mastering%20RxSwift%20in%20iOS/Section5.%20Filtering%20Operator/Skip%20While.md)|
+|||[Skip Until](Mastering%20RxSwift%20in%20iOS/Section5.%20Filtering%20Operator/Skip%20Until.md)|
+|||[Take](Mastering%20RxSwift%20in%20iOS/Section5.%20Filtering%20Operator/Take.md)|
+|||[Take While](Mastering%20RxSwift%20in%20iOS/Section5.%20Filtering%20Operator/Take%20While.md)|
+|||[Take Until](Mastering%20RxSwift%20in%20iOS/Section5.%20Filtering%20Operator/Take%20Until.md)|
