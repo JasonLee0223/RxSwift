@@ -20,3 +20,4 @@
 |04|Implementing Photo Filter App Using RxSwift|[What we will be building?](https://github.com/JasonLee0223/RxSwift/blob/main/Mastering%20RxSwift%20in%20iOS/Section4.%20Implementing%20Photo%20Filter%20App%20Using%20RxSwift/What%20we%20will%20be%20building%3F.md)|
 |||[Requesting Permission to Accesss Photo Library](Mastering%20RxSwift%20in%20iOS/Section4.%20Implementing%20Photo%20Filter%20App%20Using%20RxSwift/Requesting%20Permission%20to%20Access%20Photo%20Library.md)|`Photos Framework` <br /> `Add PrivateKey at Info.plist`
 |||[Fetching All Photo Assets](Mastering%20RxSwift%20in%20iOS/Section4.%20Implementing%20Photo%20Filter%20App%20Using%20RxSwift/Fetching%20All%20Photo%20Assets.md)|`enumerateObject`
+|||[Displaying Photos from Photo Library](Mastering%20RxSwift%20in%20iOS/Section4.%20Implementing%20Photo%20Filter%20App%20Using%20RxSwift/Displaying%20Photos%20from%20Photo%20Library.md)|
