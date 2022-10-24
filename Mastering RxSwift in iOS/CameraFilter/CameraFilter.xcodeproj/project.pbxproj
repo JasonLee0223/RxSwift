@@ -13,9 +13,12 @@
 		8DFF9BCA22150A4000305081 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DFF9BC922150A4000305081 /* Assets.xcassets */; };
 		8DFF9BCD22150A4000305081 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DFF9BCB22150A4000305081 /* LaunchScreen.storyboard */; };
 		8DFF9BD522150AFA00305081 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF9BD422150AFA00305081 /* PhotosCollectionViewController.swift */; };
+		D8889666D017459A8E31A540 /* Pods_CameraFilter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E2731CD0DFC28220761517 /* Pods_CameraFilter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2091986609EADA0233194703 /* Pods-CameraFilter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraFilter.debug.xcconfig"; path = "Target Support Files/Pods-CameraFilter/Pods-CameraFilter.debug.xcconfig"; sourceTree = "<group>"; };
+		4952E39B4063282EDFE4B19E /* Pods-CameraFilter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraFilter.release.xcconfig"; path = "Target Support Files/Pods-CameraFilter/Pods-CameraFilter.release.xcconfig"; sourceTree = "<group>"; };
 		8DFF9BBF22150A3F00305081 /* CameraFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DFF9BC222150A3F00305081 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DFF9BC422150A3F00305081 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		8DFF9BCC22150A4000305081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DFF9BCE22150A4000305081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DFF9BD422150AFA00305081 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		C4E2731CD0DFC28220761517 /* Pods_CameraFilter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CameraFilter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8889666D017459A8E31A540 /* Pods_CameraFilter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D2E298DC34F83F7F7AE0666 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4E2731CD0DFC28220761517 /* Pods_CameraFilter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8DFF9BB622150A3F00305081 = {
 			isa = PBXGroup;
 			children = (
 				8DFF9BC122150A3F00305081 /* CameraFilter */,
 				8DFF9BC022150A3F00305081 /* Products */,
+				FB9ACA208CD60B377277F8FE /* Pods */,
+				2D2E298DC34F83F7F7AE0666 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +82,16 @@
 			path = CameraFilter;
 			sourceTree = "<group>";
 		};
+		FB9ACA208CD60B377277F8FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2091986609EADA0233194703 /* Pods-CameraFilter.debug.xcconfig */,
+				4952E39B4063282EDFE4B19E /* Pods-CameraFilter.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DFF9BD122150A4000305081 /* Build configuration list for PBXNativeTarget "CameraFilter" */;
 			buildPhases = (
+				3A82D7C2BED38D21090C4FD6 /* [CP] Check Pods Manifest.lock */,
 				8DFF9BBB22150A3F00305081 /* Sources */,
 				8DFF9BBC22150A3F00305081 /* Frameworks */,
 				8DFF9BBD22150A3F00305081 /* Resources */,
+				9285DB1293C042EA71B972BB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +159,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A82D7C2BED38D21090C4FD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CameraFilter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9285DB1293C042EA71B972BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CameraFilter/Pods-CameraFilter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CameraFilter/Pods-CameraFilter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CameraFilter/Pods-CameraFilter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8DFF9BBB22150A3F00305081 /* Sources */ = {
@@ -284,6 +353,7 @@
 		};
 		8DFF9BD222150A4000305081 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2091986609EADA0233194703 /* Pods-CameraFilter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +372,7 @@
 		};
 		8DFF9BD322150A4000305081 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4952E39B4063282EDFE4B19E /* Pods-CameraFilter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
