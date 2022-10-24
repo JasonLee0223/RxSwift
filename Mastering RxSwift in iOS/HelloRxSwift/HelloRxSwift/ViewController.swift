@@ -7,6 +7,7 @@
 
 import UIKit
 import RxSwift
+import RxCocoa
 
 class ViewController: UIViewController {
     
@@ -16,23 +17,15 @@ class ViewController: UIViewController {
         
         let disposeBag = DisposeBag()
         
-        let subject = ReplaySubject<String>.create(bufferSize: 2)
+        let relay = BehaviorRelay(value: ["Item 1"])
         
-        subject.onNext("Issue 1")
-        subject.onNext("Issue 2")
-        subject.onNext("Issue 3")
+        var value = relay.value
+        value.append("Item 2")
+        value.append("Item 3")
+        relay.accept(value)
         
-        subject.subscribe{
-            print($0)
-        }
-        
-        subject.onNext("Issue 4")
-        subject.onNext("Issue 5")
-        subject.onNext("Issue 6")
-        
-        print("[Subscription 2]")
-        subject.subscribe{
-            print($0)
+        relay.asObservable().subscribe {
+            print ($0)
         }
     }
 }
