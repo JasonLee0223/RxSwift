@@ -34,3 +34,14 @@
 |||[Map](Mastering%20RxSwift%20in%20iOS/Section7.%20Transforming%20Operators/Map.md)|
 |||[FlatMap](Mastering%20RxSwift%20in%20iOS/Section7.%20Transforming%20Operators/Flat%20Map.md)|
 |||[Flat Map Latest](Mastering%20RxSwift%20in%20iOS/Section7.%20Transforming%20Operators/Flat%20Map%20Latest.md)|
+|09|Combining Operators|[Starts With](Mastering%20RxSwift%20in%20iOS/Section9.%20Combining%20Operators/Starts%20With.md)|
+|||[Concat](Mastering%20RxSwift%20in%20iOS/Section9.%20Combining%20Operators/Concat.md)|
+|||[Merge](Mastering%20RxSwift%20in%20iOS/Section9.%20Combining%20Operators/Merge.md)|
+|||[Combine Latest](Mastering%20RxSwift%20in%20iOS/Section9.%20Combining%20Operators/Combine%20Latest.md)|
+|||[With Latest From](Mastering%20RxSwift%20in%20iOS/Section9.%20Combining%20Operators/With%20Latest%20From.md)|
+|||[Reduce](Mastering%20RxSwift%20in%20iOS/Section9.%20Combining%20Operators/Reduce.md)|
+|||[Scan](Mastering%20RxSwift%20in%20iOS/Section9.%20Combining%20Operators/Scan.md)|
+|11|Error Handling|[Managing Errors](Mastering%20RxSwift%20in%20iOS/Section11.%20Error%20Handling/Managing%20Errors.md)|
+|||[Throwing Errors](Mastering%20RxSwift%20in%20iOS/Section11.%20Error%20Handling/Throwing%20Errors.md)|
+|||[Handle Errors with Catch](Mastering%20RxSwift%20in%20iOS/Section11.%20Error%20Handling/Handle%20Errors%20with%20Catch.md)|
+|||[Retrying on Error](Mastering%20RxSwift%20in%20iOS/Section11.%20Error%20Handling/Retrying%20on%20Error.md)|
